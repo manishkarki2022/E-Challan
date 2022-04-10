@@ -1,0 +1,238 @@
+.name {
+    position: absolute;
+    width: 84px;
+    height: 20px;
+    left: 410px;
+    top: 150px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.password {
+    position: absolute;
+    width: 138px;
+    height: 36px;
+    left: 410px;
+    top: 250px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.login {
+    position: absolute;
+    width: 150px;
+    height: 45px;
+    left: 575px;
+    top: 375px;
+    size: 75px;
+}
+
+.headname {
+    position: absolute;
+    width: 235px;
+    height: 48px;
+    left: 645px;
+    top: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.headname:hover {
+    color: rgb(209, 82, 78);
+}
+
+.headbox {
+    position: absolute;
+    width: 750px;
+    height: 55px;
+    left: 370px;
+    top: 30px;
+    background: linear-gradient(rgb(6, 92, 204), rgb(63, 65, 180));
+    border-radius: 17px;
+}
+
+.loginbox {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    left: 375px;
+    top: 115px;
+    background: linear-gradient(rgb(18, 82, 167), rgb(63, 65, 180));
+    border-radius: 32px;
+}
+
+.logobox {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    left: 735px;
+    top: 115px;
+    border-radius: 28px;
+}
+
+input {
+    font-family: 'Arail';
+    font-weight: 400;
+    color: #000000;
+    font-size: 18px;
+    text-align: left;
+    position: relative;
+}
+
+.submit {
+    background: #B9DFFF;
+    color: #fff;
+    border: 3px solid #eee;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(62, 106, 156);
+    text-shadow: none;
+}
+
+.submit:hover {
+    background: #016ABC;
+    color: rgb(224, 140, 101);
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(116, 143, 233);
+    text-shadow: none;
+}
+
+.logoname {
+    position: absolute;
+    width: 261px;
+    height: 48px;
+    left: 366px;
+    top: -20px;
+    font-family: 'Proza Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 61px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.logoname:hover {
+    color: rgb(209, 82, 78);
+}
+
+body {
+    background-color: #dae4ec;
+}
+.slastcont{
+    position: absolute;
+width: 1536px;
+height: 175px;
+left: 0px;
+top: 505px;
+background-color: #016ABC;
+}
+.copyrigth{
+    position: absolute;
+width: 780px;
+height: 40px;
+left: 498px;
+top: 660px;
+
+font-family: 'Inter';
+font-style: normal;
+
+font-size: 22px;
+line-height: 30px;
+font: blod;
+
+color: #0F0909;
+}
+.traffic{
+position: absolute;
+width: 154px;
+height: 30px;
+left: 337px;
+top: 480px;
+font-family: 'Inter';
+font-style: normal;
+font-size: 28px;
+line-height: 30px;
+color: #FFFFFF;
+}
+.trafficinfo{
+    position: absolute;
+width: 154px;
+height: 30px;
+left: 340px;
+top: 520px;
+font-family: 'Inter';
+font-style: normal;
+font-size: 20px;
+line-height: 30px;
+color: #FFFFFF;
+
+}
+.info{
+    position: absolute;
+width: 154px;
+height: 30px;
+left: 675px;
+top: 480px;
+font-family: 'Inter';
+font-style: normal;
+font-size: 28px;
+line-height: 30px;
+color: #FFFFFF;
+
+}
+.info1{
+    position: absolute;
+    width: 154px;
+    height: 30px;
+    left: 675px;
+    top: 520px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    
+
+}
+.partners{
+    position: absolute;
+    width: 154px;
+    height: 30px;
+    left: 975px;
+    top: 480px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 28px;
+    line-height: 30px;
+    color: #FFFFFF;
+
+}
+.partners1{
+    position: absolute;
+    width: 154px;
+    height: 30px;
+    left: 975px;
+    top: 520px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+
+}
