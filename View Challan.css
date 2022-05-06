@@ -1,0 +1,279 @@
+.heading {
+    position: relative;
+    left: 190px;
+   bottom: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 35px;
+    font-weight: lighter;
+        color: #ffffff;
+}
+
+.welcome {
+    position: absolute;
+    width: 294px;
+    left: 600px;
+    top: 1px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 47px;
+    /* identical to box height */
+    color: #bb5c18;
+}
+
+.logobox {
+ position: absolute;
+width: 383px;
+height: 742px;
+left: 130px;
+top: 0px;
+
+background: #030161;}
+
+body {
+    background-color: #f1f1f1;
+   overflow-x: hidden;
+}
+
+
+.view {
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 30px;
+    left: 10px;
+    height: 60px;
+    width: 365px;
+    top: 450px;
+    background-color: #f2C94C;
+    border-radius: 20px;
+   
+   
+}
+.Create {
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 30px;
+    left: 10px;
+    height: 60px;
+    width: 365px;
+    top: 350px;
+    background-color:#ffffff;
+    border-radius: 20px;
+   
+   
+}
+
+.view:hover {
+    background-color: #F2C94C;
+}
+
+.logout {
+    position: absolute;
+    left: 1200px;
+    top: 70px;
+}
+
+.logout:hover {
+    color: #000;
+}
+
+.title1 {
+    position: absolute;
+    font-size: 60px;
+    font-family: 'Inter';
+    left: 60px;
+    bottom: 620px;
+    color: white;
+    font-style: normal;
+}
+.title2 {
+    position: absolute;
+    font-size: 34px;
+    font-family: 'Inter';
+    left: 70px;
+    bottom: 570px;
+    color: white;
+    font-style: normal;
+}
+.center{
+position: relative;
+right:70px;
+top:5px;
+}
+  
+.secondbox{
+    position: absolute;
+    width: 858px;
+    height: 232px;
+    left: 525px;
+    top: 0px; 
+    background: #F2C94C;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25), 0px 3px 25px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 150px 150px;
+
+}
+.mainbox{
+    position: relative;
+    width: 856px;
+    height: 655px;
+    top: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25), 0px 3px 25px 2px rgba(0, 0, 0, 0.25);
+}
+.logo1{
+    position: relative;  
+    left:100px;
+    top: 130px;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25), 0px 3px 25px 2px rgba(0, 0, 0, 0.25);
+}
+    .logo2{
+    position: relative;  
+    left:360px;
+    top: 125px;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25), 0px 3px 25px 2px rgba(0, 0, 0, 0.25);
+}
+.intext{
+    text-decoration: underline;
+    position: relative;
+    top: 570px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 40px;
+    left:100px;
+}
+.intex{
+   position: relative;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+color:#030161;
+left:100px;
+top:310px;
+}
+.inte{
+    position: relative;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    color:#030161;
+    left:550px;
+    top: 220px;
+}
+
+
+.searchbutton{
+    position: relative;
+    border: transparent;
+    background-color:#ffffff ;
+   right: 100px;
+    font-size: 20px;
+    top:11px;
+    color:#aaa6b1
+}
+.userimg{
+    position: relative;
+    font-size: 35px;
+    left: 300px;
+    top:17px;
+   color: rgb(56, 56, 56);
+    border: transparent;
+    background-color:#F2C94C ;
+}
+::placeholder{
+    font-size: 16px;
+}
+.rectangle{
+   position: relative; 
+    width: 1700px;
+   background:#F2C94C;
+    height: 90px;
+   top: 650px;
+}
+input[type="text"]{
+    position: relative;   
+    border-radius: 5px;
+    border: transparent;
+    padding: 10px;
+    width: 400px;
+    text-align: center;
+    border: 1px solid #243665;
+   box-sizing: border-box;
+   left: 280px;
+   bottom: 180px;
+}
+
+input[type="number"]{
+    position: relative;   
+    border-radius: 5px;
+    border: transparent;
+    padding: 10px;
+    width: 400px;
+    text-align: center;
+    border: 1px solid #243665;
+   box-sizing: border-box;
+   left: 280px;
+   bottom: 180px;
+}
+.mainb{
+    position: relative;   
+    border-radius: 5px;
+    border: transparent;
+    padding: 10px;
+    width: 855px;
+    text-align: center;
+    border: transparent;
+   box-sizing: border-box;
+   box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25), 0px 3px 25px 2px rgba(0, 0, 0, 0.25);
+   bottom:0px;
+   height: 200px;
+}
+.label{
+    position: relative;
+    font-family: 'Inter';
+font-style:normal;
+font-size: 25px;
+color: #000000;
+bottom:150px;
+left:140px;
+}
+.formtitle{
+    position: relative;
+    color: #ffffff;
+font-size: 45px;
+font-weight: bold ;
+bottom: 30px;
+left:290px
+}
+.button{
+    position: relative;
+    padding: 9px;
+    color: #ffffff;
+    background-color: #F2C94C;
+    text-align: center;
+    border-radius: 10px;
+    width: 180px;
+    border: transparent;
+    bottom:40px;
+    left: 340px;
+    font-size: 20px;
+}
+.cont{
+    position: relative;   
+    background-color: #F2C94C;
+    width:1560px;
+    height: 80px;
+    top:655px;
+    right: 10px;
+
+}
+.searchTerm{
+position: relative;
+top: 10px;
+}
+

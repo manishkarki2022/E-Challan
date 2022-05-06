@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Userpage</title>
+    <link rel="stylesheet" href="userpage.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+</head>
+
+
+<body>
+    <div class="search">
+        <h1 class="desc">E-Challan</h1>
+        <input type="text" class="searchTerm" placeholder="What are your looking for ?" />
+        <button type="submit" class="searchButton">
+                <i class="fa-solid fa-search"></i> 
+           </button>
+        <form action="">
+            <button type="submit" class="login">login</button>
+        </form>
+        <img src="traffi.png" class="logo">
+    </div>
+    <form action="">
+       
+
+            <div class="mainbox">
+                <div class="leftbox">
+                <div class="label"><label for="Name"><b>Name</b></label><br></div>
+                <input type="text" placeholder="Enter Name" id="Name" name="Name" required class="input">
+                <br><br><br>
+                
+                <div class="label"><label for="liscence"><b>Liscence no</b></label><br></div>
+                <input type="number" name="liscence" id="liscence" placeholder="Enter liscence no" required class="input">
+                <br> <br> <br>
+                
+                
+                <div class="label"><label for="VehicleT"><b>Vehicle Type</b></label><br></div>
+                <input type="text" name="VehicleT" id="VehicleT" placeholder="Enter Vehicle Type" required class="input">
+                <br> <br> <br>
+                
+                <div class="label"><label for="Date"><b>Challan date</b></label><br></div>
+                <input type="date" name="Date" id="Date" placeholder="Enter date" required class="input">
+                <br> <br> <br>
+            </div>
+
+                <div class="rightbox">
+                <div class="label"> <label for="place"><b>Place</b></label><br></div>
+                <input type="text" name="place" id="place" placeholder="Enter place" required class="input">
+                <br> <br> <br>
+               
+               
+                <div class="label"><label for="Vehicle"><b>Vehicle no</b></label><br></div>
+                <input type="number" name="Vehicle" id="Vehicle" placeholder="Enter Vehicle no" required class="input">
+                <br> <br> <br>
+               
+               
+               
+                <div class="label"><label for="Created"><b>Created by</b></label><br></div>
+                <input type="text" name="Created" id="Created" placeholder="Enter Creator's Name" required class="input">
+                <br><br> <br>
+               
+                <div class="label"><label for="Guilty"><b>Guilty for</b></label><br></div>
+                <input type="text" name="Guilty" id="Guilty" placeholder="Enter Guilty for" required class="input">
+                <br><br> <br>
+               </div>
+                <div class="last">          
+                <div class="label"><label for="Fine"><b>Fine amount</b></label><br></div>
+                <input type="number" name="Fine" id="Fine" placeholder="Enter Fine amount" required class="input">
+                <br>
+            </div>     
+                
+                <input type="submit" class="button" value="Payment">
+            </div>
+           
+
+    </form>
+    </div>
+    </body>

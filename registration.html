@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Traffic Registration</title>
+    <link rel="stylesheet" href="registration.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+</head>
+
+
+<body>
+        <div class="search">
+             <h1 class="desc">E-Challan</h1>
+            <input type="text" class="searchTerm" placeholder="Search?" />
+            <button type="submit" class="searchButton">
+                <i class="fa-solid fa-search"></i> 
+           </button>
+        </div>
+        <section class="registration-part">
+          
+            <div class="main">
+                <h2 id="heading">Traffic registration</h2>
+                <form id="Reg" class="form" action="POST">
+<div class="labeling">
+
+     <label for="name"><b>Name</b></label> <br><!--(break line for each label) -->
+    <label for="phone"><b>Phone</b></label> <br>               
+    <label for="address"><b>Address</b></label> <br>                
+    <label for="email"><b>Email</b></label> <br>       
+    <label for="password"><b>Password</b></label> <br>              
+    <label for="username"><b>Username</b></label>  <br>      
+
+    </div>
+<div class="input-field">
+ <input id="name" type="text" placeholder="Enter Userame" name="Name" required> <br>
+ <input id="phone" type="number" placeholder="Enter Pnone" name="Phone" required> <br>
+ <input id="address" type="text" placeholder="Enter Address" name="Address" required> <br>
+ <input id="email" type="email" placeholder="Enter Email" name="Email" required> <br>
+ <input id="password" type="password" placeholder="Enter Password" name="Password" required><br>
+ <input id="username"type="text" placeholder="Enter User name" name="Username" required><br>
+ <button type="submit">Register</button>
+</div>
+
+
+
+</form>
+</div>
+</section>
+</body>
+</html>

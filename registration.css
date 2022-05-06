@@ -1,0 +1,85 @@
+*{ /* Initial CSS applied to all elements in page */
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif; /*  Same font*/
+}
+.searchTerm{
+  position: relative;
+  left: 1200px;
+}
+.desc{/* for h1 title */
+position: relative;
+top: 20px;
+left:40px;
+color:#f5d001;
+}
+ .search{
+  background-color: #313bcc;
+  border-radius: 0px 0px 40px 40px;
+} 
+.searchButton{ /* Set width of an element */
+position: relative;
+left: 1200px;
+}
+
+.main{ 
+  flex: 3; /* Sets flex size as 3 */
+  background-color: #313bcc; /* Set background color */
+  height:500px;
+  width: 900px;
+  border-radius: 100px 100px 100px 100px; /* Give border radius*/
+  padding: 50px;
+}
+
+.main{
+  position: relative;
+  left: 350px;
+  top:150px
+}
+.input-field{
+position:relative;
+left: 150px;
+bottom: 340px;
+}
+
+.main label{/*setting attributes of label */
+  padding-right: 20px; 
+  line-height: 57px; 
+  color: #edeef5;
+  font-size: 24px;
+}
+
+.main input{/* for input fields */
+
+  padding: 12px 20px; 
+  width: 400px; 
+  margin: 8px 0;
+  border: 1px solid #ccc; 
+  border-radius: 10px; 
+}
+
+
+
+
+.main button{/*for register button*/
+  background-color: #d16811;
+  color: white;
+  padding: 10px 0;
+  border: none; 
+  width: 50%; 
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 24px; 
+  margin-top: 20px; 
+}
+
+.main button:hover{
+  background-color: #b34d0a; /* Change color on button hover */
+}
+
+ #heading /*for traffic registration */{
+  position: relative;
+  left:300px;
+  bottom:40px;
+  color:#edeef5
+}
