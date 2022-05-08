@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>E-CHALLAN SYSTEM</title>
+</head>
+
+
+<body>
+  <h1 id="heading">E-CHALLAN SYSTEM</h1>
+  <div class="flat-container">
+    <div class="box-one">
+
+    </div>
+    <div class="box-two">
+
+    </div>
+  </div>
+
+  <div class="container">
+
+    <div class="container-login">
+      <div class="login-wrapper">
+        <div class="container-image">
+          <img src="traffic.png" style="margin-left:30px;" height="250">
+        </div>
+
+        <form action="" class="form">
+       
+          <h2 id="login-admin" style="float:left">Login as Admin</h2>
+          <h2 id="login-user" >Login as User</h2>
+          <br><br>
+          <div id="container-admin">
+
+
+            <div class="input-group">
+              <label for="username"><img src="username.png" height="20"> Username</label>
+              <input type="text" name="username" id="username" required>
+            </div>
+            <div class="input-group">
+              <label for="password"><img src="password.png" height="20"> Password</label>
+              <input type="password" name="password" id="password" required>
+            </div>
+            <a href="reset-password.html" class="forgot-pw">Forgot Password?</a>
+            <input type="submit" value="Login" class="submit-btn">
+          </div>
+        </form>
+
+
+      </div>
+
+    </div>
+  </div>
+  <script>
+    const admin = document.getElementById("login-admin");
+    const user = document.getElementById("login-user")
+    admin.style.color = 'darkblue';
+    admin.addEventListener('click', function () {
+      user.style.color = 'black';
+      admin.style.color = 'darkblue';
+      user.style.borderBottom = '';
+      admin.style.borderBottom = '2px solid darkblue ';
+    });
+  
+      user.addEventListener('click', function () {
+      user.style.color = 'darkblue';
+      admin.style.color = 'black';
+      admin.style.borderBottom = '';
+      user.style.borderBottom = '2px solid darkblue ';
+    });
+  
+  </script>
+</body>
+
+
+</html>
