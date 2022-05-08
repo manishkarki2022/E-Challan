@@ -1,0 +1,255 @@
+.heading {
+    position: relative;
+    left: 140px;
+    top: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 35px;
+    font-weight: lighter;
+    color: #ffffff;
+}
+
+.welcome {
+    position: absolute;
+    width: 294px;
+    left: 600px;
+    top: 1px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 47px;
+    /* identical to box height */
+    color: #bb5c18;
+}
+
+.welcomebox {
+    position: absolute;
+    width: 350px;
+    height: 710px;
+    left: 100px;
+    top: 0px;
+    background: #030161;
+}
+
+body {
+    background-color: #f1f1f1;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.add {
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 30px;
+    left: 140px;
+    height: 60px;
+    width: 365px;
+    top: 250px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+}
+
+.add:hover {
+    background-color: #F2C94C;
+    ;
+}
+
+.delete {
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 30px;
+    left: 140px;
+    height: 60px;
+    width: 365px;
+    top: 550px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+}
+
+.delete:hover {
+    background-color: #F2C94C;
+}
+
+.edit {
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 30px;
+    left: 140px;
+    height: 60px;
+    width: 365px;
+    top: 450px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+}
+
+.edit:hover {
+    background-color: #F2C94C;
+}
+
+.view {
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 30px;
+    left: 140px;
+    height: 60px;
+    width: 365px;
+    top: 350px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+}
+
+.view:hover {
+    background-color: #F2C94C;
+}
+
+.logout {
+    position: absolute;
+    left: 1200px;
+    top: 70px;
+}
+
+.logout:hover {
+    color: #000;
+}
+
+.title1 {
+    position: absolute;
+    width: 366px;
+    height: 67px;
+    left: 156px;
+    top: 300px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 73px;
+    color: #FFFFFF;
+}
+
+.secondbox {
+    position: absolute;
+    width: 858px;
+    height: 220px;
+    left: 525px;
+    top: 0px;
+    background: #F2C94C;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25), 0px 3px 25px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 150px 150px;
+}
+
+.mainbox {
+    position: relative;
+    width: 856px;
+    height: 715px;
+    left: 518px;
+    bottom: 520px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25), 0px 3px 25px 2px rgba(0, 0, 0, 0.25);
+}
+
+.logo1 {
+    position: relative;
+    left: -35px;
+    top: 330px;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25), 0px 3px 25px 2px rgba(0, 0, 0, 0.25);
+}
+
+.logo2 {
+    position: relative;
+    left: 360px;
+    top: 125px;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25), 0px 3px 25px 2px rgba(0, 0, 0, 0.25);
+}
+
+.intex {
+    position: relative;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    color: #030161;
+    left: 150px;
+    top: 507px;
+}
+
+.inte {
+    position: relative;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    color: #030161;
+    left: 500px;
+    top: 420px;
+}
+
+.searchterm {
+    position: relative;
+    bottom: 210px;
+    border-radius: 5px;
+    border: transparent;
+    padding: 20px;
+    width: 600px;
+    text-align: center;
+    border: 1px solid #243665;
+    box-sizing: border-box;
+    left: 80px;
+}
+
+.searchbutton {
+    position: relative;
+    bottom: 207px;
+    border: transparent;
+    background-color: #ffffff;
+    right: 500px;
+    font-size: 20px;
+}
+
+.userimg {
+    position: relative;
+    bottom: 200px;
+    font-size: 35px;
+    left: 120px;
+    border: transparent;
+    background-color: #F2C94C;
+}
+
+::placeholder {
+    font-size: 20px;
+}
+
+.rectangle {
+    position: relative;
+    width: 1700px;
+    background: #F2C94C;
+    height: 90px;
+    top: 650px;
+}
+
+.backbutton {
+    position: relative;
+    padding: 7px;
+    color: #ffffff;
+    background-color: #243665;
+    text-align: center;
+    border-radius: 10px;
+    width: 150px;
+    font-size: 20px;
+    border: transparent;
+    left: 600px;
+    top: 420px;
+}
+
+.img {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    left: 145px;
+    top: -90px;
+    border-radius: 50px;
+}

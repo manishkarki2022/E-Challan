@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  
+  .box-one {
+    position: absolute;
+    width: 80%;
+    height: 1200px;
+    left: -390px;
+    top: 380px;
+    overflow: hidden;
+    background: #F2C94C;
+    transform: rotate(30deg);
+  }
+  
+  
+  .box-two {
+    overflow: hidden;
+    position: absolute;
+    width: 80%;
+    height: 800px;
+    left: 800px;
+    z-index: 10;
+    margin-top: 200px;
+    top: 110px;
+    z-index: auto;
+    background: #030161;
+    transform: rotate(142deg);
+  }
+  
+  body {
+    font-family: sans-serif;
+  }
+  
+  
+  .login-wrapper {
+    display: flex;
+    margin-top: 150px;
+    align-items: center;
+    position: relative;
+    box-shadow: 1px 2px 6px rgb(0 0 0 / 18%);
+    background-color: #fff;
+    width: 500px;
+    height: 400px;
+    margin-left: 25%;
+    padding-right: 35px;
+    left:100px
+  
+  }
+  
+  
+  .form {
+    position: inherit;
+    width: 100%;
+    max-width: 380px;
+    padding: 80px 40px 40px;
+  }
+ 
+  
+  #heading{
+  text-align: center;
+  margin-top: 40px;
+  color: darkblue;
+  
+  }
+  
+  
+  h2 {
+      position: relative;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+    color: #ff652f;
+    top: 120px;
+    right:15px;
+   
+}
+  
+  .input-group {
+    position: relative;
+    width: 170px;
+    height:100px;
+    text-align: center;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25), 0px 3px 25px 2px rgba(0, 0, 0, 0.25);
+    bottom: 40px;
+    left:70px;
+    border-radius: 10px;
+
+  }
+  .input{
+    position: relative;
+    width: 170px;
+    height:100px;
+    text-align: center;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25), 0px 3px 25px 2px rgba(0, 0, 0, 0.25);
+    bottom: 40px;
+    left:200px;
+    border-radius: 10px;
+
+  }
+  
+  
+  .submit-btn {
+    position: relative;
+    outline: none;
+    border: none;
+    background: #030161;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    padding: 13px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+    z-index: 10;
+    color: #ffffff;
+  }
+  
+ 
+  .submit{
+ position: relative;
+  border: none;
+  outline: none;
+  background: #F2C94C;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  padding:13px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100px;
+  color: #ffffff;
+
+}
+p{
+    position: relative;
+    top: 30px;
+}
+.alink{
+  position: relative;
+  right:190px;
+  top:60px;
+  width: 130px;
+}
+
+.blink{
+  position: relative;
+  right:25px;
+  top:60px;
+  width: 130px;
+}

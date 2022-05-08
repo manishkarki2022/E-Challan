@@ -1,70 +1,100 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="curd.css">
+    <style>
+        .wrapper{
+            width: 600px;
+            margin: 0 auto;
+        }
+        table tr td:last-child{
+            width: 120px;
+        }
+    </style>
+    <script>
+        $(document).ready(function(){
+            $('[data-toggle="tooltip"]').tooltip();   
+        });
+    </script>
 </head>
-<body style="margin: 50px;">
-    <h1>List of Traffics</h1>
-    <br>
-    <table class="table">
-        <thead>
-            <tr>
-                <th>S NO</th>
-                <th>Name</th>
-                
-                <th>Email</th>
-                <th>Phone</th>
-                <th>Address</th>
-                
-                
+<body>
+    <div class="rectangle"></div>
 
-            </tr>
-        </thead>
-        <tbody>
-            <?php
-            $servername ="localhost";
-            $username ="root";
-            $password ="";
-            $database ="mystore";
-            $connection=new mysqli($servername,$username,$password,$database);
-            if ($connection->connect_error){
-                die("Connection Failed ". $connection->connect_error);
-            }
-            $sql="SELECT * FROM employees";
-            $result=$connection->query($sql);
-            if(!$result){
-                die("Invalid Query:".$connection->connect_error);
-            }
-            while($row=$result->fetch_assoc()){
-                echo "<tr>
-                <td>  ".$row["id"]."   </td>
-                <td>".$row["first_name"]." </td>
-                
-                <td>".$row["email"]." </td>
-                <td>".$row["phone"]." </td>
-                <td>".$row["address"]." </td>
-                <td>
+    <div class="welcome"></div>
+    <img src="traffi.png" class="img">
+    <div class="secondbox"></div>
+
+    <h1 class="echa">E-Challan</h1>
+
+    <div class="wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="mt-5 mb-3 clearfix">
+                        <h2 class="pull-left">Traffic Details</h2>
+                        <a href="create.php" class="btn btn-success pull-right"><i class="fa fa-plus"></i> Add New Traffic</a>
+                    </div>
+                    <?php
+                    // Include config file
+                    require_once "config.php";
                     
-                </td>
-            </tr>";
-                
-            }
+                    // Attempt select query execution
+                    $sql = "SELECT * FROM employees";
+                    if($result = mysqli_query($link, $sql)){
+                        if(mysqli_num_rows($result) > 0){
+                            echo '<table class="table table-bordered table-striped">';
+                                echo "<thead>";
+                                    echo "<tr>";
+                                        echo "<th>#</th>";
+                                        echo "<th>Name</th>";
+                                        echo "<th>Email</th>";
+                                        echo "<th>Password</th>";
+                                        echo "<th>Address</th>";
+                                        echo "<th>Number</th>";
+                                        echo "<th>Action</th>";
+                                    echo "</tr>";
+                                echo "</thead>";
+                                echo "<tbody>";
+                                while($row = mysqli_fetch_array($result)){
+                                    echo "<tr>";
+                                        echo "<td>" . $row['id'] . "</td>";
+                                        echo "<td>" . $row['name'] . "</td>";
+                                        echo "<td>" . $row['email'] . "</td>";
+                                        echo "<td>" . $row['password'] . "</td>";
+                                        echo "<td>" . $row['address'] . "</td>";
+                                        echo "<td>" . $row['pnumber'] . "</td>";
+                                        echo "<td>";
+                                            echo '<a href="read.php?id='. $row['id'] .'" class="mr-3" title="View Record" data-toggle="tooltip"><span class="fa fa-eye"></span></a>';
+                                            echo '<a href="update.php?id='. $row['id'] .'" class="mr-3" title="Update Record" data-toggle="tooltip"><span class="fa fa-pencil"></span></a>';
+                                            echo '<a href="delete.php?id='. $row['id'] .'" title="Delete Record" data-toggle="tooltip"><span class="fa fa-trash"></span></a>';
+                                        echo "</td>";
+                                    echo "</tr>";
+                                }
+                                echo "</tbody>";                            
+                            echo "</table>";
+                            // Free result set
+                            mysqli_free_result($result);
+                        } else{
+                            echo '<div class="alert alert-danger"><em>No records were found.</em></div>';
+                        }
+                    } else{
+                        echo "Oops! Something went wrong. Please try again later.";
+                    }
  
+                    // Close connection
+                    mysqli_close($link);
+                    ?>
+                </div>
+            </div>        
+        </div>
+    </div>
 
-
-
-
-           
-            ?>
-        </tbody>
-    </table>
-    <Form action="Admin DashBoard.html">
-
-        <input type="submit" value="Back" class="view">
-
-    </Form>
 </body>
 </html>

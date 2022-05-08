@@ -1,0 +1,56 @@
+.welcome {
+    position: absolute;
+    width: 350px;
+    height: 710px;
+    left: 100px;
+    top: 0px;
+    background: #030161;
+}
+
+.wrapper {
+    position: relative;
+    left: 60px;
+    top: -300px;
+    width: 100px;
+    height: 100px
+}
+
+.row {
+    margin-right: -250px;
+}
+
+.rectangle {
+    position: relative;
+    width: 1500px;
+    background: #F2C94C;
+    height: 90px;
+    top: 620px;
+}
+
+.echa {
+    position: absolute;
+    width: 366px;
+    height: 67px;
+    left: 156px;
+    top: 300px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 73px;
+    color: #FFFFFF;
+}
+
+.img {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    left: 145px;
+    top: -90px;
+    border-radius: 50px;
+}
+
+.container-fluid {
+    position: relative;
+    top: -60px;
+}
