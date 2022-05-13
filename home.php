@@ -6,24 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Traffic Registration</title>
-    <link rel="stylesheet" href="home page.css" type="text/css">
+    <link rel="stylesheet" href="home.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="home page.css">
 </head>
 
 
 <body>
+
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <div class="search">
+      
         <h1 class="desc">E-Challan</h1>
         <div class="search-box">
-            <input type="text" autocomplete="off" placeholder="Search and Pay challan..." />
+            <form action="secondpage.html">
+            <button type="submit" class="login">Login</button>
+        </form>
+            <form action="userpage.php" method="get"> 
+            <input type="text" name="code" autocomplete="off" placeholder="Search and Pay challan..." class="searchterm"/>
+            </form>
+            
             <div class="result"></div>
         </div>
-
-        <form action="secondpage.html">
-            <button type="submit" class="login">login</button>
-        </form>
-        <img src="traffi.png" class="logo">
+        
+         <img src="traffi.png" class="logo"> 
     </div>
     <section class="registration-part">
         <img src="Traffic.png" alt="Logo" width="1480" height="620" class="img" />
@@ -57,28 +63,6 @@
             <p class="three">500 volunteers to be mobilised <br>for traffic management </p>
         </div>
         <script>
-            $(document).ready(function() {
-                $('.search-box input[type="text"]').on("keyup input", function() {
-                    /* Get input value on change */
-                    var inputVal = $(this).val();
-                    var resultDropdown = $(this).siblings(".result");
-                    if (inputVal.length) {
-                        $.get("http://localhost/search/backend-search.php", {
-                            term: inputVal
-                        }).done(function(data) {
-                            // Display the returned data in browser
-                            resultDropdown.html(data);
-                        });
-                    } else {
-                        resultDropdown.empty();
-                    }
-                });
-
-                // Set search input value on click of result item
-                $(document).on("click", ".result p", function() {
-                    $(this).parents(".search-box").find('input[type="text"]').val($(this).text());
-                    $(this).parent(".result").empty();
-                });
-            });
+            
         </script>
 </body>

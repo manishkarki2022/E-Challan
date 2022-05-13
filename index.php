@@ -25,13 +25,26 @@
     </script>
 </head>
 <body>
-    <div class="rectangle"></div>
+    
+</div>
+    <div class="rectangle">
+         
+    </div>
 
-    <div class="welcome"></div>
-    <img src="traffi.png" class="img">
+    <div class="welcome">
+        <a href="home.php"><img src="homeicon.png" class="backbutton"></a>
+        
+    </div>
+    
+</div>
+       <img src="traffi.png" class="img">
+
+
+
     <div class="secondbox"></div>
 
     <h1 class="echa">E-Challan</h1>
+    
 
     <div class="wrapper">
         <div class="container-fluid">
@@ -40,6 +53,7 @@
                     <div class="mt-5 mb-3 clearfix">
                         <h2 class="pull-left">Traffic Details</h2>
                         <a href="create.php" class="btn btn-success pull-right"><i class="fa fa-plus"></i> Add New Traffic</a>
+                        
                     </div>
                     <?php
                     // Include config file
@@ -95,6 +109,8 @@
             </div>        
         </div>
     </div>
+
+    
 
 </body>
 </html>

@@ -1,0 +1,225 @@
+* {
+    /* Initial CSS applied to all elements in page */
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    /*  Same font*/
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.searchTerm {
+    position: relative;
+    left: 950px;
+    padding: 10px;
+    bottom: 15px;
+    width: 250px;
+}
+
+::placeholder {
+    position: relative;
+    left: 6px;
+}
+
+.logo {
+    height: 70px;
+    width: 70px;
+    position: relative;
+    left: 8px;
+    bottom: 36px;
+}
+
+.login {
+    position: relative;
+    left: 1270px;
+    border-radius: 10px;
+    padding: 7px;
+    width: 130px;
+    color: #030161;
+    font: bold;
+    font-size: 20px;
+    bottom: 15px;
+}
+
+.desc {
+    /* for h1 title */
+    position: relative;
+    top: 27px;
+    left: 580px;
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.search {
+    background-color: #030161;
+    width: 1460px;
+    position: relative;
+    left: 30px;
+    top: 20px;
+    height: 90px;
+}
+
+.searchButton {
+    /* Set width of an element */
+    position: relative;
+    left: 910px;
+    padding: 7px;
+    bottom: 18px;
+    border: transparent;
+    background-color: #ffffff;
+}
+
+.img {
+    position: relative;
+    left: 20px;
+    top: 39px;
+}
+
+.inside p {
+    background: #030161;
+    padding: 40px;
+    left: 35px;
+    bottom: 320px;
+    opacity: 0.5;
+    position: relative;
+    text-align: center;
+    width: 1370px;
+    color: #ffffff;
+    font: bold;
+    font-size: 30px;
+    filter: brightness(150%);
+}
+
+.inside button {
+    position: relative;
+    left: 674px;
+    border-radius: 10px;
+    border: transparent;
+    padding: 15px;
+    bottom: 240px;
+    background: #F2C94C;
+    width: 190px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.inside button:hover {
+    background-color: #c8ae19;
+    /* Change color on button hover */
+}
+
+form {
+    background-color: #c8ae19;
+    width: 0px;
+    height: 0px;
+}
+
+.mainbox {
+    position: relative;
+    background-color: #030161;
+    width: 1460px;
+    left: 30px;
+    top: 40px;
+    height: 530px;
+}
+
+.mainbox input[type="text"] {
+    position: relative;
+    border-radius: 5px;
+    border: transparent;
+    padding: 10px;
+    width: 400px;
+    text-align: center;
+    border: 1px solid #243665;
+    box-sizing: border-box;
+    left: 130px;
+    top: 35px;
+}
+
+input[type="date"] {
+    position: relative;
+    border-radius: 5px;
+    border: transparent;
+    padding: 10px;
+    width: 400px;
+    text-align: center;
+    border: 1px solid #243665;
+    box-sizing: border-box;
+    left: 130px;
+    top: 35px;
+}
+
+input[type="number"] {
+    position: relative;
+    border-radius: 5px;
+    border: transparent;
+    padding: 10px;
+    width: 400px;
+    text-align: center;
+    border: 1px solid #243665;
+    box-sizing: border-box;
+    left: 130px;
+    top: 35px;
+}
+
+.label {
+    position: relative;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 25px;
+    color: #ffffff;
+    top: 15px;
+    left: 130px;
+}
+
+.rightbox {
+    position: relative;
+    left: 850px;
+    bottom: 412px;
+}
+
+.leftbox {
+    position: relative;
+    top: 2px;
+    right: 50px
+}
+
+.last {
+    position: relative;
+    bottom: 517px;
+    left: 410px;
+}
+
+.code {
+    position: relative;
+    padding: 13px;
+    color: #243665;
+    background-color: #F2C94C;
+    text-align: center;
+    border-radius: 20px;
+    width: 250px;
+    left: 620px;
+    font-size: 20px;
+    bottom: 345px;
+}
+
+.button {
+    position: relative;
+    left: 43%;
+    top: -82%;
+    display: inline-block;
+    outline: 0;
+    border: none;
+    cursor: pointer;
+    padding: 0 24px;
+    border-radius: 50px;
+    min-width: 200px;
+    height: 50px;
+    font-size: 18px;
+    background-color: rgb(48, 98, 213);
+    font-weight: 500;
+    color: rgb(245, 245, 245);
+}

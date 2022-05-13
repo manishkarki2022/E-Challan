@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.text {
+    width: 90%;
+    margin: 15px 45px;
+    background-color: darkblue;
+    padding: 10px;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+.row {
+    margin: 0px;
+    display: flex;
+}
+
+.one {}
+
+.two {
+    padding-left: 4px;
+    padding-top: 12px;
+    padding-right: 46rem;
+}
+
+.two h1 {
+    color: white;
+}
+
+.three {
+    position: absolute;
+    left: 86%;
+    padding: 13px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.new {
+    width: 90%;
+    padding-bottom: 12px;
+}
+
+.new h5 {
+    font-size: 15px;
+    padding: 8px;
+    text-align: center;
+}
+
+.line {
+    width: 80%;
+    padding-left: 8%;
+}
+
+hr {
+    border: none;
+    border-top: 2px dashed black;
+    padding-top: 4px;
+    padding-bottom: 0px;
+}
+
+.challan {
+    padding-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+#col ul h4 {
+    margin-top: 10px;
+    font-size: 15px;
+    margin-bottom: 4px;
+    padding-left: 10px;
+}
+
+#column {
+    border-left: 2px solid black;
+    padding-left: 4px;
+}
+
+#column ul h4 {
+    margin-top: 10px;
+    font-size: 15px;
+    margin-bottom: 4px;
+}
+
+.final h4 {
+    text-align: right;
+    padding-right: 15px;
+    padding: 12px;
+}
+
+.btn {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.hero-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+    padding: 12px 80px;
+    font-size: 20px;
+    background-color: darkblue;
+    position: relative;
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.hero-btn:hover {
+    color: yellow;
+}
+
+.boxname {
+    position: relative;
+    border: none;
+    left: 110px;
+    top: -22px;
+}
